@@ -28,8 +28,29 @@
   th, td { border: 1px solid #e2e5ea; padding: 8px 11px; font-size: 14.5px; text-align: left; line-height: 1.5; }
   th { background: #faf0f1; color: #b3001b; }
   footer { text-align: center; color: #666; font-size: 13px; margin-top: 26px; line-height: 1.7; }
+
+  .dl-btn { display: inline-block; background: #b3001b; color: #fff; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: bold; margin: 4px 8px 4px 0; font-size: 15px; }
+  .dl-btn.alt { background: #fff; color: #b3001b; border: 2px solid #b3001b; }
   @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Oil Change Coupons Dataset, October 2026",
+  "description": "A dated, source labelled dataset of current oil change coupons and offers from Jiffy Lube, Valvoline, Firestone and Take 5, verified against official brand and franchise coupon pages.",
+  "url": "https://checkersrallysmenu-arch.github.io/oil-change-coupon-codes/data.html",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": { "@type": "Organization", "name": "Oil Change Coupon Codes", "url": "https://oilchangecouponcodes.us/" },
+  "temporalCoverage": "2026-10",
+  "dateModified": "2026-10-21",
+  "keywords": ["oil change coupons", "Jiffy Lube coupons", "Valvoline coupons", "Firestone offers", "Take 5 coupons"],
+  "distribution": [
+    { "@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://checkersrallysmenu-arch.github.io/oil-change-coupon-codes/data/oil-change-coupons.csv" },
+    { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://checkersrallysmenu-arch.github.io/oil-change-coupon-codes/data/oil-change-coupons.json" }
+  ]
+}
+</script>
 </head>
 <body>
 <nav>
@@ -100,8 +121,20 @@
 
   <section>
     <h2>The open coupon dataset</h2>
-    <p>The offers on this page are also published as a free, downloadable dataset: every current coupon with its code, expiry date, official source and the date it was last checked, in one CSV file. It is the same data we maintain for our own pages, released under a CC BY 4.0 license so anyone can use it.</p>
-    <p><a href="data.html">Browse and download the dataset</a> · <a href="methodology.html">How we verify</a> · <a href="changelog.html">Update history</a></p>
+    <p>The offers on this page are also published as a free, downloadable dataset: every current coupon with its code, expiry date, official source and the date it was last checked. It is the same data we maintain for our own pages, released under a CC BY 4.0 license so anyone can use it. Dataset version 1.0, published October 21, 2026.</p>
+    <p><a class="dl-btn" href="data/oil-change-coupons.csv">Download CSV</a><a class="dl-btn alt" href="data/oil-change-coupons.json">Download JSON</a></p>
+    <table>
+      <tr><th>Brand</th><th>Offer</th><th>Code or claim</th><th>Expiry</th><th>Last checked</th></tr>
+      <tr><td>Valvoline</td><td>$30 off full synthetic or synthetic blend oil change</td><td>NANABT4</td><td>2026-10-31</td><td>2026-10-21</td></tr>
+      <tr><td>Valvoline</td><td>$25 off synthetic or synthetic blend oil change</td><td>Claim by text or email</td><td>2026-11-19</td><td>2026-10-21</td></tr>
+      <tr><td>Jiffy Lube</td><td>$30 off oil change</td><td>GDSBJ2</td><td>2026-11-19</td><td>2026-10-21</td></tr>
+      <tr><td>Jiffy Lube</td><td>$30 off any oil change on Sundays</td><td>Sunday30</td><td>2026-11-04</td><td>2026-10-21</td></tr>
+      <tr><td>Jiffy Lube</td><td>50% off conventional oil change</td><td>SB50</td><td>2026-10-27</td><td>2026-10-20</td></tr>
+      <tr><td>Jiffy Lube</td><td>$10 off any oil change</td><td>Z3RJFEY2</td><td>2026-11-06</td><td>2026-10-21</td></tr>
+      <tr><td>Firestone</td><td>$19.99 oil change special</td><td>No code, in-store offer</td><td>Varies by store</td><td>2026-10-17</td></tr>
+      <tr><td>Take 5</td><td>$15 off Core, Complete or Ultimate oil change</td><td>Text or email coupon</td><td>Ongoing</td><td>2026-10-15</td></tr>
+    </table>
+    <p>That is 8 of the 32 offers in the file. <a href="data.html">See the full dataset page</a> for the field guide, <a href="methodology.html">how we verify</a>, and the <a href="changelog.html">update history</a>. If you republish an offer from this dataset, keep its last checked date and its official source with it, an offer stripped of its date is how stale lists are born.</p>
   </section>
 
   <section>

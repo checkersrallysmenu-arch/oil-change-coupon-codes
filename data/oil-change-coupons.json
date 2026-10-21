@@ -1,0 +1,330 @@
+{
+ "dataset": "Oil Change Coupons Dataset",
+ "version": "1.0",
+ "updated": "2026-10-21",
+ "license": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
+ "maintained_by": "Oil Change Coupon Codes (https://oilchangecouponcodes.us/)",
+ "description": "Current oil change coupons and offers from Jiffy Lube, Valvoline, Firestone and Take 5, verified against official brand and franchise coupon pages. Every record carries its last checked date.",
+ "offers": [
+  {
+   "brand": "Valvoline",
+   "offer": "$30 off full synthetic or synthetic blend oil change",
+   "code_or_claim": "NANABT4",
+   "expiry_date": "2026-10-31",
+   "scope": "National campaign",
+   "how_to_claim": "Show the coupon from the official campaign page",
+   "official_source": "vioc.com campaign page",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Valvoline",
+   "offer": "50% off conventional oil change",
+   "code_or_claim": "NANABU4",
+   "expiry_date": "2026-10-31",
+   "scope": "National campaign",
+   "how_to_claim": "Show the coupon from the official campaign page",
+   "official_source": "vioc.com campaign page",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Valvoline",
+   "offer": "$25 off synthetic or synthetic blend oil change",
+   "code_or_claim": "Claim by text or email",
+   "expiry_date": "2026-11-19",
+   "scope": "National campaign",
+   "how_to_claim": "Text or email signup on vioc.com, barcode on phone",
+   "official_source": "vioc.com coupons",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Valvoline",
+   "offer": "$25 off conventional oil change",
+   "code_or_claim": "Claim by text or email",
+   "expiry_date": "2026-11-19",
+   "scope": "National campaign",
+   "how_to_claim": "Text or email signup on vioc.com",
+   "official_source": "vioc.com coupons",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Valvoline",
+   "offer": "$25 off synthetic or synthetic blend oil change",
+   "code_or_claim": "Claim on regional page",
+   "expiry_date": "2026-11-04",
+   "scope": "Texas regional",
+   "how_to_claim": "Claim on the Texas regional offer page",
+   "official_source": "vioc.com Texas page",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Valvoline",
+   "offer": "$20 off for new customers",
+   "code_or_claim": "Claim on regional page",
+   "expiry_date": "2026-11-04",
+   "scope": "Houston area",
+   "how_to_claim": "Claim on the Houston regional offer page",
+   "official_source": "vioc.com Houston page",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Valvoline",
+   "offer": "$25 off synthetic or synthetic blend oil change",
+   "code_or_claim": "Claim on regional page",
+   "expiry_date": "2026-11-04",
+   "scope": "Memphis area",
+   "how_to_claim": "Claim on the Memphis regional offer page",
+   "official_source": "vioc.com Memphis page",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Valvoline",
+   "offer": "$15 off synthetic or synthetic blend oil change",
+   "code_or_claim": "NANAQ6A",
+   "expiry_date": "Ongoing",
+   "scope": "National",
+   "how_to_claim": "Show the coupon from the official coupon page",
+   "official_source": "vioc.com/coupons",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Valvoline",
+   "offer": "$10 off conventional oil change",
+   "code_or_claim": "NANAQ6B",
+   "expiry_date": "Ongoing",
+   "scope": "National",
+   "how_to_claim": "Show the coupon from the official coupon page",
+   "official_source": "vioc.com/coupons",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Jiffy Lube",
+   "offer": "$30 off oil change",
+   "code_or_claim": "FB6HBS3X",
+   "expiry_date": "2026-10-27",
+   "scope": "Franchise group stores",
+   "how_to_claim": "Show the code at the counter",
+   "official_source": "jiffylube.com franchise coupon page",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Jiffy Lube",
+   "offer": "$30 off oil change",
+   "code_or_claim": "CDD6HBS3X",
+   "expiry_date": "2026-10-27",
+   "scope": "Franchise group stores",
+   "how_to_claim": "Show the code at the counter",
+   "official_source": "jiffylube.com franchise coupon page",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Jiffy Lube",
+   "offer": "$30 off oil change",
+   "code_or_claim": "DBB6E3X",
+   "expiry_date": "2026-11-04",
+   "scope": "Franchise group stores",
+   "how_to_claim": "Show the code at the counter",
+   "official_source": "jiffylube.com franchise coupon page",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Jiffy Lube",
+   "offer": "$30 off oil change",
+   "code_or_claim": "UU8FW2",
+   "expiry_date": "2026-11-04",
+   "scope": "Franchise group stores",
+   "how_to_claim": "Show the code at the counter",
+   "official_source": "jiffylube.com franchise coupon page",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Jiffy Lube",
+   "offer": "$30 off any oil change on Sundays",
+   "code_or_claim": "Sunday30",
+   "expiry_date": "2026-11-04",
+   "scope": "Participating stores, Sundays only",
+   "how_to_claim": "Show the code at the counter on a Sunday",
+   "official_source": "jiffylube.com coupons",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Jiffy Lube",
+   "offer": "$30 off oil change",
+   "code_or_claim": "GDSBJ2",
+   "expiry_date": "2026-11-19",
+   "scope": "Franchise group stores",
+   "how_to_claim": "Show the code at the counter",
+   "official_source": "jiffylube.com franchise coupon page",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Jiffy Lube",
+   "offer": "$30 off oil change",
+   "code_or_claim": "JAJEN2",
+   "expiry_date": "2026-11-19",
+   "scope": "Franchise group stores",
+   "how_to_claim": "Show the code at the counter",
+   "official_source": "jiffylube.com franchise coupon page",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Jiffy Lube",
+   "offer": "$30 off oil change",
+   "code_or_claim": "ZTDBC2",
+   "expiry_date": "2026-11-19",
+   "scope": "Franchise group stores",
+   "how_to_claim": "Show the code at the counter",
+   "official_source": "jiffylube.com franchise coupon page",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Jiffy Lube",
+   "offer": "50% off conventional oil change",
+   "code_or_claim": "SB50",
+   "expiry_date": "2026-10-27",
+   "scope": "Stonebriar group, Texas",
+   "how_to_claim": "Show the code at the counter",
+   "official_source": "Stonebriar franchise coupon page",
+   "last_checked": "2026-10-20"
+  },
+  {
+   "brand": "Jiffy Lube",
+   "offer": "50% off conventional oil change",
+   "code_or_claim": "JHUC82",
+   "expiry_date": "No printed expiry",
+   "scope": "Oregon and SW Washington",
+   "how_to_claim": "Show the code at the counter",
+   "official_source": "Regional franchise coupon page",
+   "last_checked": "2026-10-11"
+  },
+  {
+   "brand": "Jiffy Lube",
+   "offer": "$10 off any oil change",
+   "code_or_claim": "Z3RJFEY2",
+   "expiry_date": "2026-11-06",
+   "scope": "Seven franchise groups",
+   "how_to_claim": "Show the code at the counter",
+   "official_source": "jiffylube.com franchise coupon pages",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Jiffy Lube",
+   "offer": "$35 off oil change",
+   "code_or_claim": "SSLOCL35",
+   "expiry_date": "2026-10-27",
+   "scope": "Franchise group stores",
+   "how_to_claim": "Show the code at the counter",
+   "official_source": "jiffylube.com franchise coupon page",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Jiffy Lube",
+   "offer": "$35 off oil change",
+   "code_or_claim": "DIGPM35",
+   "expiry_date": "2026-11-17",
+   "scope": "Franchise group stores",
+   "how_to_claim": "Show the code at the counter",
+   "official_source": "jiffylube.com franchise coupon page",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Jiffy Lube",
+   "offer": "$30 off oil change",
+   "code_or_claim": "DMCOMP30",
+   "expiry_date": "2026-12-31",
+   "scope": "Jones group stores",
+   "how_to_claim": "Show the code at the counter",
+   "official_source": "jiffylube.com franchise coupon page",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Jiffy Lube",
+   "offer": "$30 off oil change",
+   "code_or_claim": "DMTK30",
+   "expiry_date": "2026-12-31",
+   "scope": "Jones group stores",
+   "how_to_claim": "Show the code at the counter",
+   "official_source": "jiffylube.com franchise coupon page",
+   "last_checked": "2026-10-21"
+  },
+  {
+   "brand": "Firestone",
+   "offer": "$19.99 oil change special",
+   "code_or_claim": "No code, in-store offer",
+   "expiry_date": "Varies by store",
+   "scope": "Participating locations",
+   "how_to_claim": "Ask for the special at the counter",
+   "official_source": "firestonecompleteautocare.com offers",
+   "last_checked": "2026-10-17"
+  },
+  {
+   "brand": "Firestone",
+   "offer": "$15 off any oil change",
+   "code_or_claim": "Shown on offers page",
+   "expiry_date": "Current offer",
+   "scope": "Participating locations",
+   "how_to_claim": "Show the offer from the official offers page",
+   "official_source": "firestonecompleteautocare.com offers",
+   "last_checked": "2026-10-17"
+  },
+  {
+   "brand": "Firestone",
+   "offer": "$40 prepaid card with Shell Rotella T6 full synthetic service",
+   "code_or_claim": "Rebate offer",
+   "expiry_date": "2026-10-31",
+   "scope": "Participating locations",
+   "how_to_claim": "Follow the rebate steps on the offers page",
+   "official_source": "firestonecompleteautocare.com offers",
+   "last_checked": "2026-10-17"
+  },
+  {
+   "brand": "Firestone",
+   "offer": "$14.99 winter inspection",
+   "code_or_claim": "No code, in-store offer",
+   "expiry_date": "Seasonal",
+   "scope": "Participating locations",
+   "how_to_claim": "Ask for the winter inspection special",
+   "official_source": "firestonecompleteautocare.com offers",
+   "last_checked": "2026-10-17"
+  },
+  {
+   "brand": "Take 5",
+   "offer": "$15 off Core, Complete or Ultimate oil change",
+   "code_or_claim": "Text or email coupon",
+   "expiry_date": "Ongoing",
+   "scope": "National",
+   "how_to_claim": "Join by text or email, show the coupon on your phone",
+   "official_source": "take5.com coupon campaign page",
+   "last_checked": "2026-10-15"
+  },
+  {
+   "brand": "Take 5",
+   "offer": "25% off for military",
+   "code_or_claim": "No code, ID at shop",
+   "expiry_date": "Ongoing",
+   "scope": "National",
+   "how_to_claim": "Show military ID in the shop",
+   "official_source": "take5.com",
+   "last_checked": "2026-10-15"
+  },
+  {
+   "brand": "Take 5",
+   "offer": "15% off for rideshare drivers",
+   "code_or_claim": "Program sticker",
+   "expiry_date": "Ongoing",
+   "scope": "National",
+   "how_to_claim": "Rideshare program enrollment",
+   "official_source": "take5.com",
+   "last_checked": "2026-10-15"
+  },
+  {
+   "brand": "Take 5",
+   "offer": "10% to 25% off for fleets",
+   "code_or_claim": "Fleet enrollment",
+   "expiry_date": "Ongoing",
+   "scope": "National",
+   "how_to_claim": "Fleet program enrollment",
+   "official_source": "take5.com",
+   "last_checked": "2026-10-15"
+  }
+ ]
+}

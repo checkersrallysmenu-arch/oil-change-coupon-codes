@@ -28,6 +28,9 @@
   th, td { border: 1px solid #e2e5ea; padding: 8px 11px; font-size: 14.5px; text-align: left; line-height: 1.5; }
   th { background: #faf0f1; color: #b3001b; }
   footer { text-align: center; color: #666; font-size: 13px; margin-top: 26px; line-height: 1.7; }
+
+  .dl-btn { display: inline-block; background: #b3001b; color: #fff; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: bold; margin: 4px 8px 4px 0; font-size: 15px; }
+  .dl-btn.alt { background: #fff; color: #b3001b; border: 2px solid #b3001b; }
   @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
 </style>
 <script type="application/ld+json">
@@ -42,11 +45,10 @@
   "temporalCoverage": "2026-10",
   "dateModified": "2026-10-21",
   "keywords": ["oil change coupons", "Jiffy Lube coupons", "Valvoline coupons", "Firestone offers", "Take 5 coupons"],
-  "distribution": [{
-    "@type": "DataDownload",
-    "encodingFormat": "text/csv",
-    "contentUrl": "https://checkersrallysmenu-arch.github.io/oil-change-coupon-codes/data/oil-change-coupons.csv"
-  }]
+  "distribution": [
+    { "@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://checkersrallysmenu-arch.github.io/oil-change-coupon-codes/data/oil-change-coupons.csv" },
+    { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://checkersrallysmenu-arch.github.io/oil-change-coupon-codes/data/oil-change-coupons.json" }
+  ]
 }
 </script>
 </head>
@@ -69,6 +71,7 @@
 
   <section>
     <h2>Download the dataset (CSV)</h2>
+    <p><a class="dl-btn" href="data/oil-change-coupons.csv">Download CSV</a><a class="dl-btn alt" href="data/oil-change-coupons.json">Download JSON</a></p>
     <p><strong>File:</strong> <a href="data/oil-change-coupons.csv">oil-change-coupons.csv</a> · <strong>Rows:</strong> 32 current offers · <strong>Brands:</strong> Jiffy Lube, Valvoline, Firestone, Take 5 · <strong>Last updated:</strong> October 21, 2026 · <strong>License:</strong> <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, free to use with a credit link to this page.</p>
     <p>Every row is a coupon or offer that was live on an official brand or franchise page on the date in its last_checked column. Expired offers are removed at each update instead of being left to rot, which is what makes this file different from the coupon lists scraped onto aggregator sites.</p>
   </section>
@@ -101,6 +104,20 @@
 <tr><td>Jiffy Lube</td><td>$30 off oil change</td><td>FB6HBS3X</td><td>2026-10-27</td></tr>
     </table>
     <p>The full file has all 32 rows. See <a href="methodology.html">how we verify</a> and the <a href="changelog.html">update history</a>.</p>
+  </section>
+  <section>
+    <h2>How to cite this dataset</h2>
+    <p>Oil Change Coupons Dataset, version 1.0 (October 21, 2026), maintained by Oil Change Coupon Codes. The live lists behind this dataset, including store by store Jiffy Lube coupon sets, live at <a href="https://oilchangecouponcodes.us/">Oil Change Coupon Codes</a>. If you republish an offer from this dataset, keep its last checked date and its official source with it. An offer stripped of its date is how stale lists are born. This dataset is shared under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+  </section>
+  <section>
+    <h2>What this dataset will never do</h2>
+    <ul>
+      <li>Relabel an old check date as a new one to look fresh.</li>
+      <li>Keep an expired offer in the file with a quietly extended expiry. Rolling campaign dates only move when the official page moves them, and they are labelled Ongoing in between checks.</li>
+      <li>Call an aggregator code verified. Every row traces back to an official brand or franchise page.</li>
+      <li>List an offer with no check date at all.</li>
+    </ul>
+    <p>The rules behind these promises are written out on the <a href="methodology.html">methodology page</a>, and every change to the dataset is recorded on the <a href="changelog.html">changelog page</a>.</p>
   </section>
   <footer>
     <p>Updated October 21, 2026. Independent deals site, not affiliated with Jiffy Lube, Valvoline, Firestone or Take 5. Brand names belong to their owners. Offers vary by location and can end without notice, so confirm with your store.</p>
