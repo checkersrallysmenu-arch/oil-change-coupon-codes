@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://checkersrallysmenu-arch.github.io/oil-change-coupon-codes/sitemap.xml
