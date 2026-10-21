@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="59tElagsW_gN7bsvEAOOD5afQiuAZEdOw9j9vm1Miq8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How We Verify Oil Change Coupons - Methodology</title>
+<meta name="description" content="How the coupons on this site are verified: official brand and franchise sources only, dated re-check cycles for every brand, and honest labels for rolling campaign dates.">
+<style>
+  body { font-family: Arial, Helvetica, sans-serif; margin: 0; background: #f6f7f9; color: #1a1a1a; }
+  nav { background: #1a1a1a; padding: 12px 20px; }
+  nav a { color: #fff; text-decoration: none; margin-right: 18px; font-size: 15px; }
+  nav a.brand { font-weight: bold; color: #ff4d5e; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 26px 20px 48px; }
+  .hero { background: #b3001b; color: #fff; border-radius: 12px; padding: 28px 26px; }
+  .hero h1 { margin: 0 0 8px; font-size: 29px; }
+  .hero p { margin: 0; font-size: 16px; line-height: 1.6; opacity: .95; }
+  section { background: #fff; border-radius: 12px; padding: 22px 24px; margin-top: 18px; box-shadow: 0 1px 4px rgba(0,0,0,.06); }
+  h2 { margin-top: 0; font-size: 21px; }
+  p, li { line-height: 1.7; font-size: 15.5px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .deal { border: 1px solid #e2e5ea; border-radius: 10px; padding: 14px 16px; }
+  .deal strong { font-size: 17px; color: #b3001b; display: block; margin-bottom: 3px; }
+  .deal span { font-size: 14px; color: #444; line-height: 1.5; display: block; }
+  .deal a { font-size: 14px; }
+  a { color: #b3001b; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0 4px; }
+  th, td { border: 1px solid #e2e5ea; padding: 8px 11px; font-size: 14.5px; text-align: left; line-height: 1.5; }
+  th { background: #faf0f1; color: #b3001b; }
+  footer { text-align: center; color: #666; font-size: 13px; margin-top: 26px; line-height: 1.7; }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<nav>
+  <a class="brand" href="index.html">Oil Change Coupon Codes</a>
+  <a href="jiffy-lube.html">Jiffy Lube</a>
+  <a href="valvoline.html">Valvoline</a>
+  <a href="firestone.html">Firestone</a>
+  <a href="take-5.html">Take 5</a>
+  <a href="data.html">Dataset</a>
+  <a href="methodology.html">Methodology</a>
+  <a href="changelog.html">Changelog</a>
+</nav>
+<div class="wrap">
+  <div class="hero">
+    <h1>How We Verify Every Coupon</h1>
+    <p>No scraped lists, no guessed dates. This page documents exactly where each offer comes from and how often it is checked, so anyone can audit the data.</p>
+  </div>
+
+  <section>
+    <h2>Where the data comes from</h2>
+    <p>Every offer on this site and in the <a href="data.html">dataset</a> comes from an official source: the brand's own coupon page, or the coupon page of the franchise group that runs the stores in that area. Jiffy Lube is the clearest example of why this matters. There is no single national Jiffy Lube coupon list, each franchise group publishes its own codes with its own dates, so we track the groups separately across 222 stores instead of copying one list and hoping.</p>
+    <p>Coupon aggregator sites are treated as leads, never as sources. When an aggregator lists a code, the code only enters our data after it is found on an official page. Codes that cannot be found there are marked as fabricated, which happens more often than you would think. Our Take 5 check is a good example: the promo codes listed for Take 5 across the aggregator web do not work anywhere, because Take 5 has no promo code system at all, its real coupon is a text or email signup that lives on your phone.</p>
+  </section>
+  <section>
+    <h2>How often offers are re-checked</h2>
+    <table>
+      <tr><th>Offer set</th><th>Re-check cycle</th></tr>
+      <tr><td>Jiffy Lube $30 off coupons</td><td>Every day</td></tr>
+      <tr><td>Jiffy Lube full coupon hub</td><td>Every 3 days</td></tr>
+      <tr><td>Valvoline campaigns</td><td>Every week</td></tr>
+      <tr><td>Firestone and Take 5 offers</td><td>Every week</td></tr>
+    </table>
+    <p>The last_checked column in the dataset is the honest date of the last check for that row, not a site wide stamp. Rows whose offers expire are removed or corrected in the same cycle, and every change is written into the <a href="changelog.html">changelog</a>.</p>
+  </section>
+  <section>
+    <h2>Rolling dates, explained honestly</h2>
+    <p>Some brands, Valvoline most of all, run campaigns whose end dates roll forward a few days at a time instead of ending. A date in our data is the date printed on the official page at the last check. If the brand's page shows a later date when you visit, the campaign was extended again, which is normal for these offers and good news for you.</p>
+  </section>
+  <section>
+    <h2>Corrections</h2>
+    <p>If you find an offer here that a store will not honor, or a date that has moved, the fastest fix is to tell us through the contact page at <a href="https://oilchangecouponcodes.us/">Oil Change Coupon Codes</a>, where the full store by store listings live. Corrections are verified against the official page and applied in the next cycle, usually faster.</p>
+  </section>
+  <footer>
+    <p>Updated October 21, 2026. Independent deals site, not affiliated with Jiffy Lube, Valvoline, Firestone or Take 5. Brand names belong to their owners. Offers vary by location and can end without notice, so confirm with your store.</p>
+  </footer>
+</div>
+</body>
+</html>
